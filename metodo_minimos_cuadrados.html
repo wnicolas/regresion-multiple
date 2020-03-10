@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Método de mínimos cuadrados</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -36,7 +36,7 @@
                 <a class="dropdown-item" href="analisis_residual.html">Análisis residual</a>
                 <a class="dropdown-item" href="regresion_logistica.html">Regresión logística</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Libro guía</a>
+                <a class="dropdown-item" href="#">Fórmulas</a>
               </div>
             </li>
           </ul>
@@ -46,5 +46,63 @@
           </form>
         </div>
     </nav>
+
+    <div class="container style="padding-top: 50px; text-align:justify;">
+      <h1 style="text-align: center; font-style:oblique;">Método de mínimos cuadrados</h1><br><hr>
+      <ul>
+        <li style="font-size:larger;"><a href="#teoria">Teoría</a></li> 
+        <li style="font-size:larger;"><a href="#ejemplos">Ejemplos</a></li> 
+      </ul><hr>
+      <h2 id="teoria" style="font-style: oblique;">Teroría</h2>
+      <p style="text-align:justify;">
+        En el <a href="">capítulo anterior</a>, se usó el método de mínimos cuadrados para obtener la ecuación de regresión estimada que permitía aproximar mejor la relación lineal entre las variables dependiente e independiente. Este método también se usa para obtener la ecuación de regresión múltiple estimada. El criterio en el método de mínimos cuadrados, como ya se dijo, es el siguiente.
+      </p>
+       <!-- Button trigger modal -->
+       <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" >
+       Ver fórmula
+      </button><hr>
+
+      <h2 id="ejemplos" style="font-style: oblique;">Ejemplos</h2>
+      <p>
+      </p>
+
+
+
+
+      <!-- Modal -->
+<div class="modal fade bd-example-modal-lg"  id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">CRITERIO DE MÍNIMOS CUADRADOS </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="imagenes/formulas/16.PNG" alt="">
+        <p>Donde</p>
+        <img src="imagenes/formulas/17.PNG" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+
+
+    <footer class="Container-fluid" style="background-color: rgb(0, 0, 0); color: #ffffff;">
+      <div class="row">
+        <div class="col" style="text-align: center;">Siguenos en nuestras Redes Sociales: <br>
+          <a href="https://www.facebook.com/nicolas.buitrago2">Nicolás  Buitrago</a><br>
+          <a href="https://www.facebook.com/michaelestiven.ramirezalba.9">Michael Ramirez</a>
+        </div>
+        <div class="col" style="text-align: center;">Universidad Distrital <br>  
+          <a href="https://udistrital.edu.co">Página principal</a>
+    </footer>
+
 </body>
 </html>
